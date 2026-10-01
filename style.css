@@ -1,0 +1,165 @@
+/* ========================================
+   CONFIGURACIÓN GENERAL
+======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #555;
+}
+
+
+/* ========================================
+   ENCABEZADO
+======================================== */
+
+.banner {
+    width: 100%;
+    height: 200px;
+
+    background-image: url("resourses/images/imagen1.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    object-fit: cover;
+    font-family: Helvetica;
+font-size: 100px;
+font-weight: bold;
+color: khaki;
+}
+
+
+/* ========================================
+   TEXTO DEL ENCABEZADO
+======================================== */
+
+.banner h1 {
+    margin: 0;
+
+    color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 80px;
+
+    font-weight: bold;
+
+    line-height: 1.1;
+}
+
+
+/* ========================================
+   SECCIONES
+======================================== */
+
+.category {
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+
+/* ========================================
+   TÍTULOS
+======================================== */
+
+.category h2 {
+    width: 100%;
+
+    margin: 0 0 25px 0;
+
+    padding: 5px;
+
+    color: white;
+
+    font-size: 36px;
+
+    font-weight: bold;
+}
+
+
+/* ========================================
+   COLORES DE LOS TÍTULOS
+======================================== */
+
+.sparks-title {
+    background-color: #00d66b;
+}
+
+.frames-title {
+    background-color: #f05a64;
+}
+
+.paint-title {
+    background-color: #55c7df;
+}
+
+
+/* ========================================
+   PRODUCTOS
+======================================== */
+
+.product {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 500px;
+}
+
+
+/* ========================================
+   IMÁGENES RECTANGULARES
+======================================== */
+
+.product {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 500px;
+}
+
+.product img {
+    width: 500px;
+    height: 150px !important;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+/* ========================================
+   DESCRIPCIÓN
+======================================== */
+
+.product p {
+    margin: 6px 0;
+
+    font-size: 17px;
+
+    line-height: 1.4;
+}
+
+
+/* ========================================
+   PRECIO
+======================================== */
+
+.product .price {
+    color: #164b9b;
+
+    font-weight: bold;
+}
